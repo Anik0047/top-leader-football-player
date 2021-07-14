@@ -158,6 +158,9 @@ body{
     .player, .highlight, .footers{
         flex-direction: column;
     }
+    .highlight img{
+        width: 100%;
+    }
     .footers img{
         width: 100%;
     }
