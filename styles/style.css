@@ -29,10 +29,17 @@ body{
     color: white;
     font-size: 16px;
 }
-.navigations img{
+.photo-frame{
+    overflow: hidden;
+}
+.photo-frame:hover .photo{
+    transform: scale(1.2);
+    transition: transform 2s;
+}
+.photo{
     width: 556.01px;
     height: 438px;
-    margin-right: 140px;
+    margin-right: 250px;
 }
 /* top player style */
 .top-players{
